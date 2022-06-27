@@ -1,0 +1,35 @@
+.Sidebar {
+  background: #242236;
+  width: 300px;
+  &.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    font-size: 1.25rem;
+    color: #acacff;
+    font-weight: 600;
+    padding: 1rem 0.5rem;
+    background: #1d202b;
+    box-shadow: 0 2px 2px #1f1d2c6a;
+  }
+}
+
+.prgButton {
+  background: transparent;
+  padding: 0.5rem;
+  color: rgb(191, 204, 255);
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #49496782;
+  text-align: left;
+  transition: 0.3s;
+  &:hover {
+    color: white;
+    background: rgb(28, 28, 44);
+    cursor: pointer;
+  }
+  &:not(:last-child) {
+  }
+}

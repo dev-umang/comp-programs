@@ -1,0 +1,10 @@
+.layoutWrapper {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  color: aliceblue;
+  height: 100vh;
+  .childWrapper {
+    flex-grow: 1;
+    background: #2c2a3f;
+  }
+}

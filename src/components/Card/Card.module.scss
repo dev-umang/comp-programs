@@ -1,0 +1,16 @@
+.cardWrapper {
+  border-radius: 0.5rem;
+  background: #242236;
+  border: thin solid #403c6592;
+  // box-shadow: 2px 2px 6px #403c6592;
+  .header {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(169, 174, 248);
+    padding: 0.5rem;
+    border-bottom: thin solid #403c6592;
+  }
+  .body {
+    padding: 0.5rem;
+  }
+}
